@@ -1,0 +1,8 @@
+/build/
+*.o
+/bin/fuzzy_search
+
+*~
+*.swp
+.DS_Store
+Thumbs.db
