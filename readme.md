@@ -69,14 +69,14 @@ let:
 
 **per distance calculation**
 
-- **time complexity**: \( O(k l) \)
+- **time complexity**: \( O(k \* l) \)
   - thanks to ukkonen's algorithm reducing unnecessary computations.
 
 **total runtime**
 
 1. **best-case runtime**
 
-   - **time complexity**: \( O(k *\ l) \)
+   - **time complexity**: \( O(k \* l) \)
    - **occurs when**:
      - the query word is identical or very similar to the root node's word.
      - minimal traversal is needed.
